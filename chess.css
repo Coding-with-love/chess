@@ -1,0 +1,86 @@
+@import url(fonts/clear-sans.css);
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #195905;
+  color: #123;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; }
+
+.text-align-center {
+    text-align: center;
+	color: #fdd700;
+}
+
+#myBoard {
+    max-width: 100%;
+    height: auto;
+    overflow: scroll;
+}
+
+.highlight-white {
+    box-shadow: inset 0 0 3px 3px yellow;
+}
+
+.highlight-black {
+    box-shadow: inset 0 0 3px 3px blue;
+}
+
+.highlight-hint {
+    box-shadow: inset 0 0 3px 3px red;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.no-outline:focus {
+    outline: none;
+    box-shadow: none;
+	background-color: #fdd700;
+}
+
+.btn-header {
+    font-size: 20px;
+    font-weight: bold;
+	
+	
+}
+
+.new-container {
+  width: 85%;
+  margin: 0 auto; }
+
+.btn-danger{
+	color: #195905;
+	background-color: #fdd700;
+}
+
+.btn-success{
+	color: #195905;
+	background-color: #fdd700;
+}
+
+.btn{
+	background-color: #fdd700;
+	color: #195905;
+}
+
+.card-header{
+	background-color: #195905;
+	
+}
+
+.card-header div:hover{
+	background-color: #aa6c39;
+}
+.row{
+	color: #fdd700;
+}
+
+.settings{
+	color: #fdd700;
+}
+
+
+
